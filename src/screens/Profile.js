@@ -16,7 +16,7 @@ import auth from '@react-native-firebase/auth'
 import axios from 'axios'
 
 
-const BASE_URL = 'http://192.168.100.131:3000' // Your backend URL
+const BASE_URL = 'https://node-firebase-backend.vercel.app' 
 
 
 

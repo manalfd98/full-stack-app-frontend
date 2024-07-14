@@ -91,15 +91,7 @@ export default function Login() {
         <Text style={styles.signupText}>Not have an account, Sign Up</Text>
       </TouchableOpacity>
 
-      <View style={styles.socialContainer}>
-        <Text style={styles.socialText}>Or login with:</Text>
-        <TouchableOpacity>
-          <Image source={fb} style={styles.socialImg} />
-        </TouchableOpacity>
-        <TouchableOpacity>
-          <Image source={google} style={styles.socialImg} />
-        </TouchableOpacity>
-      </View>
+      
       {error ? <Text style={styles.errorText}>{error}</Text> : null}
     </View>
   );
@@ -168,21 +160,6 @@ const styles = StyleSheet.create({
     width: 200,
     height: 200,
     marginTop: 10,
-  },
-  socialContainer: {
-    marginTop: 10,
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  socialText: {
-    color: '#333',
-    marginRight: 10,
-    fontSize: 16,
-  },
-  socialImg: {
-    width: 40,
-    height: 34,
-    marginLeft: 5,
   },
   loaderContainer: {
     flex: 1,

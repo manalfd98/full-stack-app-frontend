@@ -7,7 +7,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useNavigation } from '@react-navigation/native';
 import Toast from 'react-native-toast-message';
 
-const BASE_URL = 'http://192.168.100.131:3000';
+const BASE_URL = 'https://node-firebase-backend.vercel.app';
 
 export default function SignUp() {
   const [email, setEmail] = useState('');
