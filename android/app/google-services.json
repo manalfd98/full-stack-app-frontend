@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "310441962544",
+    "project_id": "fullstackapp-e3122",
+    "storage_bucket": "fullstackapp-e3122.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310441962544:android:92d97b145631d0141a11f5",
+        "android_client_info": {
+          "package_name": "com.fullstackapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoqbRoj1sJ0OhHphZBfRWazVtLKsITgxY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
